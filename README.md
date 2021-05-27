@@ -6,6 +6,8 @@ The code that broke looked for files that do not match the surefire testcase pat
 Test in them. This was a common problem of people adding tests that were not properly picked up by surefire
 and therefore would not be run by CI.
 
+Created ticket https://issues.apache.org/jira/browse/IO-733 for this
+
 ## How to run
 To run with the default, 2.8.0 version
 `mvn test`
